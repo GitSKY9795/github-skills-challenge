@@ -1,4 +1,6 @@
-name: Python Coverage
+name: Python Coverage Report
+
+run-name: Coverage report for PR #${{ github.event.pull_request.number }} - ${{ github.event.pull_request.title }}
 
 on:
   pull_request:
@@ -11,6 +13,7 @@ permissions:
 
 jobs:
   python-coverage:
+    name: Python coverage check
     runs-on: ubuntu-latest
 
     steps:
