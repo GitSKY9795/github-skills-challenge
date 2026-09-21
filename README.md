@@ -9,6 +9,8 @@ Follow the instructions provided for this challenge and complete the required ta
 
 Make sure your work is committed and pushed to your repository before submission.
 
+Pull requests targeting `main` run the Python coverage workflow and publish the coverage result in a pull request comment.
+
 Good luck!
 
 
